@@ -47,3 +47,11 @@
 		.wrapper.style.3 foot {
 			width: 85%;
 		}
+	.wrapper {
+		padding: 4em 0em 2em;
+		/* Style 2 Wrapper */
+	}
+
+		.wrapper.style2 footer {
+			width: 85%;
+		}
