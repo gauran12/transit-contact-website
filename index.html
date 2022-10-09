@@ -39,7 +39,18 @@
 
 		<!-- Banner -->
 			<section id="banner">
-				<h2>Hi. This is Transit.</h2>
+				<div class="container">
+					<h2>Hi. <span class="auto-type"></span></h2>
+					<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+					<script>
+						var typed = new Typed(".auto-type", {
+							strings: ["This is Transit."],
+							typeSpeed: 150,
+							backSpeed: 100,
+							loop: true
+						})
+					</script>
+				</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<ul class="actions">
 					<li>
