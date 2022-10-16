@@ -806,6 +806,16 @@
 		text-decoration: none;
 		white-space: nowrap;
 	}
+		.select-wrapper:before {
+			content: "";
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
