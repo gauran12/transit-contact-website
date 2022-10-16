@@ -69,7 +69,7 @@
 			text-decoration: none;
 		}
 
-	h2 {
+	.container h2 {
 		font-size: 1.75em;
 		line-height: 1.5em;
 	}
@@ -1131,6 +1131,26 @@
 				background-color: #fff;
 				color: #444;
 			}
+
+/* ScrollBar */
+	::-webkit-scrollbar {
+		width: 10px;
+	}	
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #040b14;
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #555;
+	}
 
 /* Footer */
 
