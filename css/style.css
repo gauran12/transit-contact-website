@@ -617,6 +617,14 @@
 			ul.unstyled li {
 				padding: 0.4em 0;
 			}
+	input[type="checkbox"] + label:before {
+		border-radius: 4px;
+	}
+
+	input[type="radio"] + label:before {
+		border-radius: 100%;
+	}
+
 
 		ul.icons {
 			cursor: default;
