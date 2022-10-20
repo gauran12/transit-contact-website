@@ -386,6 +386,10 @@
 		color: #858585 !important;
 		opacity: 1.0;
 	}
+	:-moz-placeholder {
+		color: #858585 !important;
+		opacity: 1.0;
+	}
 
 	::-moz-placeholder {
 		color: #858585 !important;
