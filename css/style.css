@@ -540,6 +540,14 @@
 		display: inline-block;
 		position: relative;
 	}
+	label {
+		color: #474747;
+		display: block;
+		font-size: 0.9em;
+		font-weight: 700;
+		margin: 0 0 1em 0;
+	}
+
 
 		.image img {
 			border-radius: 4px;
