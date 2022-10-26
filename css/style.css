@@ -150,6 +150,18 @@
 	.align-left {
 		text-align: left;
 	}
+#MainContainer h5 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.5;
+	margin: 0
+}
+#MainContainer p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0 0 15px;
+}
 
 	.align-center {
 		text-align: center;
