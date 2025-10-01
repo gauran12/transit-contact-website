@@ -119,7 +119,15 @@
 			#navPanel nav .button {
 				width: 100%;
 			}
-
+#navButton .toggle:before {
+			content: "";
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
 /* Footer */
 
 	#footer .copyright {
